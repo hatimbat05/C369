@@ -1,2 +1,4 @@
 # C369
-#this my readme file
+# This my readme file
+Below are feature
+f1 f2 f2
