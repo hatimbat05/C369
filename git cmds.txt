@@ -1,0 +1,30 @@
+git config --global user.email "hatimbat04@gmail.com"
+git config --global user.name "hatimbat05"
+git init
+git status
+git add .\todo.txt  //for specific files
+git add .   //for multiple files
+git commit -m "This is a file by Hatim" //-m is for msg
+git restore .\todo.txt //to get back to previous state
+git commit -a -m "new commit"  //to add and commit simultaneously
+//git provides branch 
+a branch is a location which contains the project
+we create branches to create separate versions of same projects
+you would be required to give a copy of your project to QA teamor Deployment team and give access to other teams
+to check current branch write//
+git branch //it shows->  *master
+
+//to create new we write
+git checkout -b production //-> *production
+
+git checkout master -> Switched to branch 'master'
+
+//to merge master into prodcution we write
+git checkout master //first switch to master then write
+git merge production //all data will show
+
+
+
+
+
+
